@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Ishwarya Pallavajjula</span></h1>
+                <p>Aspiring FULL STACK WEB DEVELOPER<br>Passionate about building and learning <br>modern web applications with the MERN stack</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ish1.jpg" alt="Ishwarya's photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Ishwarya Pallavajjula, a passionate Full Stack Web Developer with hands-on experience in building scalable and responsive web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). With a strong foundation in programming languages like Java, C, C++, Python, and JavaScript, I enjoy crafting clean code and solving real-world problems.
+                    From developing personal portfolio and e-commerce platforms to creating AI-powered chatbots, I bring a full-cycle development mindset—front-end, back-end, and everything in between. I'm also a dedicated competitive programmer with 3500+ problems solved on platforms like CodeChef.
+                    I’m continuously learning, improving, and looking to contribute to impactful tech projects.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2023–Present</span><br>Computer Science and Technology<br>SASI Institute of Technology and Engineering<br>CGPA: 9.04</li>
+                            <li><span>2010–2023</span><br>Schooling<br>Sri Chaitanya Techno School<br>Grade: 9.5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-terminal"></i>
+                    <h2>Programming Languages</h2>
+                    <p>C<br>C++<br>Java<br>Python</p>
+                    <p>Data Structures</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store-ios"></i>
+                    <h2>Technologies Known</h2>
+                    <ul>
+                        <li>Frontend
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </li>
+                        <li>Backend
+                            <ul>
+                                <li>MongoDB</li>
+                                <li>Express</li>
+                                <li>React</li>
+                                <li>Node</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-users"></i>
+                    <h2>Non-Technical Skills</h2>
+                    <p>Communication<br>Time Management<br>Leadership<br>Adaptability<br>Teamwork</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/todolist.png" alt="To-Do List project screenshot">
+                    <div class="layer">
+                        <h3>To-Do-List App</h3>
+                        <p>An interactive To Do List app with progress bar and CRUD operations</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ecommerce.webp" alt="E-commerce website screenshot">
+                    <div class="layer">
+                        <h3>An E-Commerce Website</h3>
+                        <p>A basic store with a shopping cart and payment system</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/tictactoe.jpg" alt="Tic-Tac-Toe game screenshot">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>A two-player Tic-Tac-Toe game with a simple GUI</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ishwaryapallavajjula06@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ishwarya-pallavajjula-456a79290/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/IshwaryaPallavajjula"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/My Resume (2).pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Ishwarya Pallavajjula</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(evt, tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            evt.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.classList.add("show");
+        }
+        function closemenu() {
+            sidemenu.classList.remove("show");
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbym3RgfErZdurw0JH2TxE1ZYdtFM8TdYROnCOVszhkNBI6koEa0tQbDZ6fTXs23_l7V/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML= "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
